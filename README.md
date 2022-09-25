@@ -2,7 +2,52 @@
 
 ![image](https://user-images.githubusercontent.com/95139246/192169532-fb78941d-c299-40ca-8c7a-cb5b7066bcd3.png)
 
+#
+
+## Format:
+```
+General:
+- Family Info
+
+Leave it blank <-optinal> or None <-required>
+
+- I. Name / Father's Name / Mother's Name
+- @params
+- lastName, firstName <[-optional] secondName> <[-optional] suffix>, middleInitial | maidenName (mother) <[-optional]> 
+- Ex.
+- Dela Cruz, Juan Bantoy Jr., A
+- Dela Cruz, Juan Sr., A
+
+- II. Current Position in this Organization (Leave it blank if Member) <-optional>
+- @default: Member
+- Ex.
+- <empty> = Member
+- Treasurer = Treasurer
+
+- III. Talents / Skills <-optional>
+- Commas as separator, and only 4 talents can only be putted.
+- @params
+- Ex.
+- Dancing, Singing, Communication Skills
+- Dancing
+
+- IV. Other Orgs <-optional>
+- Commas as separator, and only 3 orgs can only be putted.
+- @params
+- Ex.
+- USC, DELTA, IECEP
+- USC
+```
+
+#
+
+## Creator Note:
+- Follow the Format (Above this)
+- 1 Image / Picture per Upload File of User.
+
 # 
+
+
 ## How does it work?
 ### Requirements:
 - MS Excel
@@ -15,6 +60,7 @@
 ### - Use Google Form to easily gather data or personal information to be generated.
 ### - Use Google Spreadsheet by only copying cells to be pasted in MS Excel
 ### - Using Signaturely for consistent e-signatures to be generated since all layout and width of brush is customizable.
+
 #
 
 ## How to use?
@@ -83,7 +129,9 @@ const SIGNATURES_DRIVE_ID = "https://drive.google.com/drive/folders/<ID HERE>";
 - It needs to be tried with at least 10 filled membership profile if it works.
 
 ### Possible Feature:
-- Automatically Move Files that has "* - ID.jpg" namings to `Personal\ID\here` and "* - Signature.png" to `Personal\Sigantures\here`.
+- Automatically Move Files that has "* - ID.jpg" namings to `Personal\ID\here` and "* - Signature.png" to `Personal\Signatures\here`.
+- Optimize Error Handling
+- Add Regular Expression in Google Form such: **Talents, Age, Membership to other orgs, Position to other orgs, Contact Number, Email Address, Father's Name, Mother's Name, Name.**
 
 ## How to clone?
 
