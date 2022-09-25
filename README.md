@@ -47,7 +47,7 @@ Directory:
 - Ignore Others and Submit.
 - Wait...
 
-### Admin:
+#### Admin:
 - Create Google Form similar questions and its sequence to [THIS](https://docs.google.com/forms/d/1s8AaJSy2avSU80pV6uH1AdfvGnhmsL7igPiskKmrurk/edit#responses) template Google Form.
 - Wait for Responses
 - Get Responses through Google Spreadsheets
@@ -63,7 +63,7 @@ Directory:
 ## How to clone?
 
 ```js
-git clone <>
+git clone https://github.com/Adr-hyng/ICPEP-Membership-Profile-Generator.git
 ```
 
 then,
