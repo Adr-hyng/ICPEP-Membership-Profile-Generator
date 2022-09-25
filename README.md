@@ -2,10 +2,6 @@
 
 ![image](https://user-images.githubusercontent.com/95139246/192169532-fb78941d-c299-40ca-8c7a-cb5b7066bcd3.png)
 
-
-## Developer Test
-- It needs to be tried with at least 10 filled membership profile if it works.
-
 # 
 ## How does it work?
 ### Requirements:
@@ -49,23 +45,14 @@ Directory:
 - Log-on Google Account
 - Fillout Membership Profile Google Form
 - Put Personal Information in Google Form
-- Uplaod Images and Signature that came from Signaturely.
+- Upload Images and Signature that came from Signaturely. (Make sure width is under W and i, like shown below)
+
+![image](https://user-images.githubusercontent.com/95139246/192169857-eec48bb6-22b1-4617-9d8b-874882d4b845.png)
+
 - Ignore Others and Submit.
-- Wait...
+- Done
 
 #### Admin:
-- Create Google Form similar questions and its sequence to [THIS](https://docs.google.com/forms/d/1s8AaJSy2avSU80pV6uH1AdfvGnhmsL7igPiskKmrurk/edit#responses) template Google Form.
-- Wait for Responses
-- Get Responses through Google Spreadsheets
-- Get Responses through Cell in Spreadsheet and Copy it not including the Timestamp.
-- Paste it to "Datasheet.xlsm" Data Sheet starting from name.
-- After Pasting required personal info in cell of MS Excel, save it. 
-- Download Pictures such as User Profile and User Signature
-- Move User Profile to /Root/Personal/ID/ and Move User Signature to /Root/Personal/Signatures/.
-- Run Python File "main.py"
-- See output in Output Folder or Directory.
-
-#### New Admin:
 - Create Google Form similar questions and its sequence to [THIS](https://docs.google.com/forms/d/1s8AaJSy2avSU80pV6uH1AdfvGnhmsL7igPiskKmrurk/edit#responses) template Google Form.
 - In Google Form, click right side of Send Button that 3-dots, then there you will see "Script Editor", click it.
 Paste this Code there. [APP SCRIPT SOURCE CODE](https://paste.pythondiscord.com/kapiyaqapo), after pasting, save and tap the Alarm Clock Icon in Left Side, which is the trigger icon. Add new Trigger, then just change the last to "On Submit". Now, you are all set.
@@ -90,12 +77,12 @@ const SIGNATURES_DRIVE_ID = "https://drive.google.com/drive/folders/<ID HERE>";
 - Run the python Script.
 
 
-## Why should you use it?
-Fixed Issues:
-- Signature Consistentcy
-- Google Drive Messy Naming when uploading responses is uploaded in Google Drive. Uploaded File is named as follows e.g Brill Cyril Abawag - ID and Brill Cyril Abawag - Signature.
+## Developer's Workspace
 
-Possible Feature:
+### Testing:
+- It needs to be tried with at least 10 filled membership profile if it works.
+
+### Possible Feature:
 - Automatically Move Files that has "* - ID.jpg" namings to `Personal\ID\here` and "* - Signature.png" to `Personal\Sigantures\here`.
 
 ## How to clone?
