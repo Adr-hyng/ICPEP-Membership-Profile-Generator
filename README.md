@@ -1,5 +1,8 @@
 # ICpEP Membership Profile Generator
 
+![image](https://user-images.githubusercontent.com/95139246/192169532-fb78941d-c299-40ca-8c7a-cb5b7066bcd3.png)
+
+
 ## Developer Test
 - It needs to be tried with at least 10 filled membership profile if it works.
 
@@ -39,6 +42,9 @@ Directory:
 5 directories, 3 files not including pictures.
 ```
 
+![image](https://user-images.githubusercontent.com/95139246/192169490-82efcc3a-4ff1-43a3-a8da-e92ee850c2ae.png)
+
+
 #### User:
 - Log-on Google Account
 - Fillout Membership Profile Google Form
@@ -64,11 +70,16 @@ Directory:
 - In Google Form, click right side of Send Button that 3-dots, then there you will see "Script Editor", click it.
 Paste this Code there. [APP SCRIPT SOURCE CODE](https://paste.pythondiscord.com/kapiyaqapo), after pasting, save and tap the Alarm Clock Icon in Left Side, which is the trigger icon. Add new Trigger, then just change the last to "On Submit". Now, you are all set.
 
+![image](https://user-images.githubusercontent.com/95139246/192169459-6c471b67-dca8-49dd-9b20-28861073d1e9.png)
+
+![image](https://user-images.githubusercontent.com/95139246/192169434-a6e01c24-e000-425e-906e-60156e551fcb.png)
+
+
 - Make sure to change the Google Form ID and Google Drive ID to the code you've pasted.
 ```js
 const GOOGLE_FORM_ID = "https://docs.google.com/forms/d/<ID HERE>";
-  const PROFILE_DRIVE_ID = "https://drive.google.com/drive/folders/<ID HERE>";
-  const SIGNATURES_DRIVE_ID = "https://drive.google.com/drive/folders/<ID HERE>";
+const PROFILE_DRIVE_ID = "https://drive.google.com/drive/folders/<ID HERE>";
+const SIGNATURES_DRIVE_ID = "https://drive.google.com/drive/folders/<ID HERE>";
 ```
 - After following the instructions, you are good to go, every submitted responses' uploaded file will be named according to their response answers of name or the first Question in Google Form.
 - Just Download the File and Move the Files accordingly.
