@@ -1,6 +1,7 @@
 # ICpEP Membership Profile Generator
 
-![image](https://user-images.githubusercontent.com/95139246/192169532-fb78941d-c299-40ca-8c7a-cb5b7066bcd3.png)
+![image](https://user-images.githubusercontent.com/95139246/192171805-768b9665-91d7-46cf-847c-7f0a4ed7c939.png)
+
 
 #
 
