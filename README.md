@@ -102,7 +102,7 @@ Directory:
 #### Admin:
 - Create Google Form similar questions and its sequence to [THIS](https://docs.google.com/forms/d/1s8AaJSy2avSU80pV6uH1AdfvGnhmsL7igPiskKmrurk/edit#responses) template Google Form.
 - In Google Form, click right side of Send Button that 3-dots, then there you will see "Script Editor", click it.
-Paste this Code there. [APP SCRIPT SOURCE CODE](https://paste.pythondiscord.com/kapiyaqapo), after pasting, save and tap the Alarm Clock Icon in Left Side, which is the trigger icon. Add new Trigger, then just change the last to "On Submit". Now, you are all set.
+Paste this Code there. [APP SCRIPT SOURCE CODE](https://paste.pythondiscord.com/cixisonone), after pasting, save and tap the Alarm Clock Icon in Left Side, which is the trigger icon. Add new Trigger, then just change the last to "On Submit". Now, you are all set.
 
 ![image](https://user-images.githubusercontent.com/95139246/192169459-6c471b67-dca8-49dd-9b20-28861073d1e9.png)
 
