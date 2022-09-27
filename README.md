@@ -5,6 +5,10 @@
 
 #
 
+## Valid Formats:
+
+![image](https://user-images.githubusercontent.com/95139246/192541283-0fef293b-dd06-43a4-b659-deeb2b0c05c6.png)
+
 ## Format:
 ```
 General:
