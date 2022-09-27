@@ -1,4 +1,6 @@
-# ICpEP Membership Profile Generator
+# ICpEP Membership Profile Generator 
+
+## Working-In Progress -  THIS NEEDS SOME CLEANING SOON for Documentation.. 
 
 ![image](https://user-images.githubusercontent.com/95139246/192171805-768b9665-91d7-46cf-847c-7f0a4ed7c939.png)
 
@@ -131,12 +133,12 @@ const SIGNATURES_DRIVE_ID = "https://drive.google.com/drive/folders/<ID HERE>";
 ## Developer's Workspace
 
 ### Testing:
-- It needs to be tried with at least 10 filled membership profile if it works.
+- [ ] It needs to be tried with at least 10 filled membership profile if it works.
 
 ### Possible Feature:
-- Automatically Move Files that has "* - ID.jpg" namings to `Personal\ID\here` and "* - Signature.png" to `Personal\Signatures\here`.
-- Optimize Error Handling
-- Add Regular Expression in Google Form such: **Talents, Age, Membership to other orgs, Position to other orgs, Contact Number, Email Address, Father's Name, Mother's Name, Name.**
+- [ ] Automatically Move Files that has "* - ID.jpg" namings to `Personal\ID\here` and "* - Signature.png" to `Personal\Signatures\here`.
+- [ ] Optimize Error Handling
+- [x] Add Regular Expression in Google Form such: **Talents, Age, Membership to other orgs, Position to other orgs, Contact Number, Email Address, Father's Name, Mother's Name, Name.**
 
 ## How to clone?
 
