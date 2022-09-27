@@ -3,6 +3,7 @@ from re import search as regexSearch
 from docxtpl import DocxTemplate
 import pandas as pd
 from datetime import datetime
+from dateutil.parser import parse
 from docx2pdf import convert
 
 EXCEL_PATH = "Datasheet.xlsm"
@@ -49,8 +50,8 @@ class MSWord:
     def insert_images(self):
         # Put images to generator
         # Link: https://signaturely.com/online-signature/draw/
-        if not pd.isnull(self.record["user_id"]): self.doc.replace_pic("user_profile.jpg", f"Personal\ID\{self.user.first_name} {self.user.last_name}.jpg")
-        if not pd.isnull(self.record["signature"]): self.doc.replace_pic("user_signature.png", f"Personal\Signatures\{self.user.first_name} {self.user.last_name}.png")
+        if not pd.isnull(self.record["user_id"]): self.doc.replace_pic("user_profile.jpg", f"Personal\ID\{self.user.first_name} {self.user.last_name} - ID.jpg")
+        if not pd.isnull(self.record["signature"]): self.doc.replace_pic("user_signature.png", f"Personal\Signatures\{self.user.first_name} {self.user.last_name} - Signature.png")
         if not pd.isnull(self.record["president_signature"]): self.doc.replace_pic("no_president_sign.png", f"CONSTANT\president_sign.png")
             
     def fill_personal(self):
@@ -80,11 +81,10 @@ class MSWord:
         self.record["contact"] = f"0{self.record['contact']}"
         
     def fill_date_entered(self):
-        self.record["date_entered"] = self.record["date_entered"].strftime("%B %d, %Y")
-            
+        self.record["date_entered"] = parse(self.record["date_entered"]).strftime("%B %d, %Y")
     
     def fill_organization_position(self):
-        self.record["organization_position"] = "Member" if self.record["organization_position"] else ""
+        self.record["organization_position"] = self.record["organization_position"] if self.record["organization_position"] else "Member"
         
     def fill_talents_skills(self):
         talent = {i+1:skill for i, skill in enumerate([li.strip() for li in self.record["talents"].split(",")])}
